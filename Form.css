@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    background:rgb(236, 236, 236);
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    padding:30px 20px;
+    text-align:left;
+    
+    background-color: white;
+    margin-top:50px;
+    font-size: 22px;
+    border-radius:8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    width:560px;
+    justify-content:center;
+}
+p{
+    font-size: 10px;
+    text-align: center;
+}
+p.policy{
+    
+    margin:10px;
+}
+img{
+    align-items: center;
+    justify-content: center;
+    margin-left:21%;
+    margin-top:0;
+}
+label{
+    margin-left:90px;
+    margin-right:10px;
+    font-size: 17px;
+    text-align:center;
+}
+
+input.gender{
+margin-top:5px;
+margin-left:auto;
+}
+
+
+h3{
+    margin-top:15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size:20px;
+    text-align: center;
+    margin-bottom:10px;
+}
+
+.main {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items:center;
+
+}
+input:not(.education,.gender)
+{
+    text-align: center;
+    border:1px solid rgb(151, 150, 150);
+    margin-left:90px;
+    height:30px;
+    width: 310px;
+    border-radius:4px;
+    text-align:left;
+    padding:0px 10px ;
+}
+
+
+#submit{
+    height:30px;
+    width:310px;
+    margin-left:90px;
+    background-color: #098bb6;
+    border:none;
+    color:white;
+    text-align:center;
+}
+#submit:hover {
+    background-color: #076888;
+    border:1px solid #076888;
+}
+a{
+    text-decoration:none;
+}
+.accountq{
+    margin:20px;
+    padding:5px;
+display:grid;
+grid-template-columns: 25% 50% 25%;
+
+}
+
+hr{
+    height:3px;
+    margin:10px;
+    color:rgb(24, 24, 24);
+
+}
+#create_ac{
+    height:32px;
+    width:310px;
+    margin-left:90px;
+    background-color: #d9ecf3;
+    border:1px solid rgb(182, 181, 181);
+    border-radius:2px;
+    text-align: center;
+}
+#create_ac:hover{
+    background-color: #b9e7f8;
+}
+footer{
+    margin-top:50px;
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+#help{
+    font-size: 15px;
+}
+.gender input{
+    margin-top: 10px;
+    
+}
+.education label{
+    margin-right:0px;
+}
+.education input{
+    /* margin-top:10px; */
+    margin-left:auto;
+    padding:0px;
+    size: 15px;
+}
+
+.ptalign{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+
+#logo-img{
+    height:120px;
+    width:290px;
+}
+
+#forgetpass{
+    color:blue; 
+    font-size: 10px;
+}
+
+#message{
+    color:red ; 
+    font-size: 15px;
+}
+/* .pass{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+/* }*/
+
+#forgetpass{
+margin-left:150px;
+} 
+#message{
+    margin-left:90px;
+    word-wrap:normal;
+}
